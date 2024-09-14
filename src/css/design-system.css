@@ -1,0 +1,47 @@
+:root {
+  --fontFamily1: "monsterrat", sans-serif;
+  --fontFamily2: "poppins", sans-serif;
+  --fontFamily3: "roboto", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--fontFamily2);
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  /* background-color: black; */
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo img {
+  width: 30px;
+  height: 30px;
+}
+
+nav .links {
+  display: flex;
+  gap: 30px;
+}
+
+nav .links a {
+  text-decoration: none;
+  color: black;
+  font-family: var(--fontFamily2);
+  transition: all 1s ease-in-out;
+}
